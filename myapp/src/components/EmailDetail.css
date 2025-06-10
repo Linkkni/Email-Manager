@@ -1,0 +1,62 @@
+.email-detail-container {
+  padding: 20px 30px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  height: calc(100vh - 110px); /* Chiều cao viewport trừ header và padding */
+  display: flex;
+  flex-direction: column;
+}
+.email-detail-actions-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.back-button {
+  padding: 8px 15px;
+  background-color: #7f8c8d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.back-button:hover {
+  background-color: #6c7a89;
+}
+.gmail-actions {
+  display: flex;
+  gap: 10px;
+}
+.gmail-actions .action-button {
+  font-size: 0.9em;
+} /* Giảm kích thước nút một chút */
+.email-detail-container h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  color: #2c3e50;
+}
+.email-detail-meta p {
+  margin: 5px 0;
+  font-size: 0.95em;
+  color: #555;
+}
+.email-detail-meta p strong {
+  color: #34495e;
+}
+.email-detail-container hr {
+  margin: 25px 0;
+  border: 0;
+  border-top: 1px solid #ecf0f1;
+}
+.email-body {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  font-size: 1em;
+  color: #333;
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
