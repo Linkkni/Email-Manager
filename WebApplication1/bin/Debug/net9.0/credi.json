@@ -1,0 +1,17 @@
+
+{
+  "installed": {
+    "client_id": "47140383517-q5ljtcvtek74bj5vtpoe13ndq31joq7g.apps.googleusercontent.com",
+    "project_id": "gmail-api-demo-461903",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "redirect_uris": [
+      "http://localhost:3000/auth/google/callback" // Hoặc URI bạn đã đăng ký
+    ]
+  }
+}
+
+
+

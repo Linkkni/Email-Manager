@@ -1,0 +1,22 @@
+# Bỏ qua các tệp log
+*.log
+npm-debug.log*
+
+# Bỏ qua thư mục chứa các gói phụ thuộc (rất quan trọng!)
+node_modules/
+
+# Bỏ qua các thư mục build/dist
+dist/
+build/
+
+# Bỏ qua các tệp biến môi trường (chứa thông tin nhạy cảm)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Bỏ qua các tệp của hệ điều hành và IDE
+.DS_Store
+.vscode/
+.idea/
